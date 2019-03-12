@@ -10,6 +10,10 @@ namespace GenericsSophisticatedLesson
     {
         static void Main(string[] args)
         {
+            Checker<Derictor> checker = new Checker<Derictor>();
+            checker.MakeCheck(new Derictor());
+
+
         }
     }
 }
